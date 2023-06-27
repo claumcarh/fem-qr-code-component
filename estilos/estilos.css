@@ -5,16 +5,20 @@
   padding: 0;
 }
 
+/* id class el */
+/* 0    0   1  */
 body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(213, 39%, 89%);
 }
 
+/* 0    1   0  */
 .container {
   width: 320px;
   margin: auto;
 }
 
+/* 0    1   0  */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
@@ -23,32 +27,38 @@ body {
   padding: 15px;
 }
 
+/* 0    1   1  */
 .card img {
   width: 100%;
   border-radius: 15px;
 }
 
+/* 0    1   0  */
 .text {
   padding: 20px;
 }
 
+/* 0    1   1  */
 .text h1 {
   color: hsl(218, 44%, 22%);
   padding-bottom: 15px;
   font-size: 22px;
 }
 
+/* 0    1   1  */
 .tex p {
   color: hsl(220, 15%, 55%);
   font-size: 12px;
   padding: 0px 15px;
 }
 
-.attribution{
+/* 0    1   0  */
+.attribution {
   text-align: center;
 }
 
 @media screen and (min-width: 1440px) {
+  /* 0    1   0  */
   .card {
     margin-top: 152px;
   }
