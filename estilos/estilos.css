@@ -10,12 +10,18 @@
 body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(213, 39%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* 0    1   0  */
 .container {
   width: 320px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* 0    1   0  */
@@ -23,7 +29,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
   text-align: center;
-  margin: 85px 0px;
+  margin: 0;
   padding: 15px;
 }
 
@@ -55,11 +61,4 @@ body {
 /* 0    1   0  */
 .attribution {
   text-align: center;
-}
-
-@media screen and (min-width: 1440px) {
-  /* 0    1   0  */
-  .card {
-    margin-top: 152px;
-  }
 }
