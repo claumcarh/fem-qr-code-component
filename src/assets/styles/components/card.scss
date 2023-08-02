@@ -18,14 +18,15 @@
     padding: 20px;
   }
 
-  /* 0    1   1  */
+  /* 0    1   0  */
   &__title {
     color: hsl(218, 44%, 22%);
     padding-bottom: 15px;
     font-size: 22px;
+    font-weight: 700;
   }
 
-  /* 0    1   1  */
+  /* 0    1   0  */
   &__body {
     color: hsl(220, 15%, 55%);
     font-size: 12px;
