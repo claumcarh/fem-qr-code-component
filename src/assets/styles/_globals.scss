@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* id class el */
+/* 0    0   1  */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(213, 39%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}

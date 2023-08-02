@@ -1,0 +1,34 @@
+/* 0    1   0  */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+
+
+  /* 0    1   0  */
+  &__img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  /* 0    1   0  */
+  &__text {
+    padding: 20px;
+  }
+
+  /* 0    1   1  */
+  &__title {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+    font-size: 22px;
+  }
+
+  /* 0    1   1  */
+  &__body {
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    padding: 0px 15px;
+  }
+}
